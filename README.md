@@ -11,13 +11,13 @@ They are algorithms for NP-hard optimization problems. Since we need to find a p
 
 ### For maximization problems: 
 
-<img src="https://latex.codecogs.com/gif.latex?\rho=\frac{C*}{C}" title="asdas" /> 
+<img src="https://latex.codecogs.com/svg.latex?\rho=\frac{C*}{C}" title="asdas" /> 
 
 Where C* is the optimal solution for the max problem and C is the solution from the polynomial time Non deterministic algorithm also known as approximation algorithm. 
 
 ### For minimzation problems: 
 
-<img src="https://latex.codecogs.com/gif.latex?\rho=\frac{C}{C*}" title="a" />
+<img src="https://latex.codecogs.com/svg.latex?\rho=\frac{C}{C*}" title="a" />
 
 
 Where C* is the optimal solution for the max problem and C is the solution from the polynomial time Non deterministic algorithm also known as approximation algorithm. 
@@ -26,8 +26,9 @@ Where C* is the optimal solution for the max problem and C is the solution from 
 ### Load Balancing Problem
 
 Load balancing a popular NP hard problem where we have 
-$`a^2+b^2=c^2`$.
 
-```math
-a^2+b^2=c^2
-```
+
+<img src="https://latex.codecogs.com/svg.latex?\newline&space;1.We~have~M~identical~machines&space;\newline&space;2.We~have~N~jobs~with~j_1,j_2,j_3...j_n~processing~times" title="\newline 1.~~M~identical~machines \newline 2.~~N~jobs~with~j_1,j_2,j_3...j_n~processing~times" />
+
+We need to find the best way to delegate these jobs to each machine such that the total time to complete all the jobs simultaneously (`makespan`) is minimum. 
+
