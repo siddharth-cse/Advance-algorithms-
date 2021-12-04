@@ -32,3 +32,11 @@ Load balancing a popular NP hard problem where we have
 
 We need to find the best way to delegate these jobs to each machine such that the total time to complete all the jobs simultaneously (`makespan`) is minimum. 
 
+
+# Lecture 4
+
+## Max-flow and Min-cut 
+
+Given a graph G(V,E) where edges have weights representing the capacity of the channel between the two vertices. There is a start vertex S (`source`) and an end vertex T (`sink`). **Max flow** problem tries to preserve the flow value and source and sink vertices i.e incoming flow == outgoing flow. The aim is to maximise the outgoing flow. If 100% flow is preserved then the solution is optimal. 
+
+Intuitively we can form a dual of this problem - **Min-Cut**  
