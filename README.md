@@ -37,6 +37,6 @@ We need to find the best way to delegate these jobs to each machine such that th
 
 ## Max-flow and Min-cut 
 
-Given a graph G(V,E) where edges have weights representing the capacity of the channel between the two vertices. There is a start vertex S (`source`) and an end vertex T (`sink`). **Max flow** problem tries to preserve the flow value and source and sink vertices i.e incoming flow == outgoing flow. The aim is to maximise the outgoing flow. If 100% flow is preserved then the solution is optimal. 
+Given a graph G(V,E) where edges have weights representing the capacity of the channel between the two vertices. There is a start vertex S (`source`) and an end vertex T (`sink`). **Max flow** problem tries to preserve the flow value and source and sink vertices i.e incoming flow == outgoing flow. The aim is to maximise the outgoing flow and if 100% flow is preserved then the solution is optimal. 
 
-Intuitively we can form a dual of this problem - **Min-Cut**  
+Intuitively we can form a dual of this problem - **Min-Cut** (In a channel of pipes the avg max flow will be decided by the smallest pipe as it has to pass through this smallest pipe in order to reach the sink) where we seperate the graph into two subset of vertices, where each set must contain either `sink` node or `source` node and not both in the same set. The weights of the edges we cut through that has the least sum, will be the **Max Flow** of the given graph. 
