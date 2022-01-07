@@ -3,13 +3,13 @@ Lecture notes and problems
 
 # P vs NP hard vs NP complete ?
 
-P - Problems that can be solved in polynomial time (Binary Search)  
+**P** - Problems that can be solved in polynomial time (Binary Search)  
 
-NP - These are the decision problems which can be verified in polynomial time. That means, if I claim that there is a polynomial time solution for a particular problem, you ask me to prove it. Then, I will give you a proof which you can easily verify in polynomial time. These kind of problems are called NP problems. Note that, here we are not talking about whether there is a polynomial time solution for this problem or not. But we are talking about verifying the solution to a given problem in polynomial time.
+**NP** - These are the decision problems which can be verified in polynomial time. That means, if I claim that there is a polynomial time solution for a particular problem, you ask me to prove it. Then, I will give you a proof which you can easily verify in polynomial time. These kind of problems are called NP problems. Note that, here we are not talking about whether there is a polynomial time solution for this problem or not. But we are talking about verifying the solution to a given problem in polynomial time.
 
-NP-Hard: These are at least as hard as the hardest problems in NP. If we can solve these problems in polynomial time, we can solve any NP problem that can possibly exist. Note that these problems are not necessarily NP problems. That means, we may/may-not verify the solution to these problems in polynomial time.
+**NP-Hard** - These are at least as hard as the hardest problems in NP. If we can solve these problems in polynomial time, we can solve any NP problem that can possibly exist. Note that these problems are not necessarily NP problems. That means, we may/may-not verify the solution to these problems in polynomial time.
 
-NP-Complete: These are the problems which are both NP and NP-Hard. That means, if we can solve these problems, we can solve any other NP problem and the solutions to these problems can be verified in polynomial time.
+**NP-Complete** These are the problems which are both NP and NP-Hard. That means, if we can solve these problems, we can solve any other NP problem and the solutions to these problems can be verified in polynomial time.
 
 Reduction - Hard problems that can be reduced to NP-hard problems in polynomial time 
 
